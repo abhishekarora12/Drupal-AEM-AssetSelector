@@ -1,0 +1,9 @@
+name: CKEditor AEM Asset Picker Button
+type: module
+description: This plugin adds AEM Asset Picker to the editor.
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: CKEditor
+version: 8.x-1.0
+dependencies:
+  - ckeditor
