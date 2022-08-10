@@ -17,7 +17,9 @@ CKEDITOR.plugins.add('aemassetpicker', {
 
         CKEDITOR.scriptLoader.load('https://code.jquery.com/jquery-1.11.1.min.js');
 
-        var assetPickerURL = "https://<YOUR_AEM_INSTANCE_URL>/aem/assetpicker.html";
+        /* MODIFY THE LINE BELOW */
+        var assetPickerURL = "https://<your domain here>/aem/assetpicker.html";
+
         var style = "popup";
         var popup;
         var messageEventListenerActivated = false;

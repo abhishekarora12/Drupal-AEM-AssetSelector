@@ -3,6 +3,8 @@ Drupal Assetpicker CKEditor Module
 
 ## Installation
 - Download Drupal AEM AssetSelector Module latest release from github (zip)
+- Change domain to your AEM publish instance domain (Update aemassetpicker/js/plugins/aemassetpicker/plugin.js Line 20:https://<your domain here>/aem/assetpicker.html)
+- Zip this folder
 - Install this module in drupal
 - Edit Configuration CKEditor - Drag & Drop button in full/basic HTML Editor (as required)
 
